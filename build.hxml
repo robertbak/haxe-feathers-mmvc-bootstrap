@@ -1,0 +1,16 @@
+-main Main
+--macro "patchTypes('starling.patch')"
+-cp src
+-cp lib\feathers
+-cp lib\starling
+-cp lib\MetalWorksMobileTheme\source
+-lib mmvc
+-swf out/UI.swf
+-debug
+-swf-version 11.3
+-swf-header 800:600:60:123456
+-swf-lib lib/starling.swf
+-swf-lib lib/feathers.swf
+
+# WINDOWS
+-cmd "xcopy assets out /S /Y /Q  & start firefox "%CD%\out\index.html" "
