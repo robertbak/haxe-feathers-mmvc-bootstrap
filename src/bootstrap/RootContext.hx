@@ -1,4 +1,5 @@
 package bootstrap;
+import feathers.system.DeviceCapabilities;
 import flash.errors.Error;
 import flash.events.UncaughtErrorEvent;
 import flash.events.Event;
@@ -12,13 +13,15 @@ class RootContext  extends mmvc.impl.Context {
         super(contextView);
     }
 
+
+
     /**
 	Overrides startup to configure all context commands, models and mediators
 	@see mmvc.impl.Context
 	*/
     override public function startup()
     {
-
+        mediatorMap.mapView(RootView,RootViewMediator);
     }
 
 

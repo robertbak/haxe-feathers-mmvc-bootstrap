@@ -1,8 +1,14 @@
 Libs
 ===========
-To make life easier with outdated libs, I keep a copy of the code in the project at the moment.
 
-On Windows you can create copy all the needed files using:
+Required
+--------
+
+    haxelib install mmvc
+
+To make life easier with outdated extern libs, I keep a copy of the code in the project at the moment.
+
+On Windows you can create copy of all the needed files using:
 (just change the githubdir)
 
     cd lib

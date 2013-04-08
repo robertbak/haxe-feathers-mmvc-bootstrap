@@ -13,4 +13,4 @@
 -swf-lib lib/feathers.swf
 
 # WINDOWS
--cmd "xcopy assets out /S /Y /Q  & start firefox "%CD%\out\index.html" "
+-cmd "xcopy assets out /S /Y /Q /d & start firefox "%CD%\out\index.html" "
